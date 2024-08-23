@@ -840,7 +840,8 @@ section,
 .portfolio .portfolio-content .portfolio-info p {
   position: absolute;
   bottom: 10px;
-  text-align: center;
+  text-align: justify;
+  padding: 16px;
   display: inline-block;
   left: 0;
   right: 0;
@@ -852,7 +853,7 @@ section,
 .portfolio .portfolio-content .portfolio-info .preview-link,
 .portfolio .portfolio-content .portfolio-info .details-link {
   position: absolute;
-  left: calc(50% - 40px);
+  left: calc(50% - 12px);
   font-size: 26px;
   top: calc(50% - 14px);
   color: #fff;
