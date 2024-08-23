@@ -839,7 +839,7 @@ section,
 
 .portfolio .portfolio-content .portfolio-info p {
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   text-align: justify;
   padding: 16px;
   display: inline-block;
