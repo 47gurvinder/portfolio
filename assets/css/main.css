@@ -949,7 +949,9 @@ section,
 
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
+  height: 90px;
   border-radius: 50%;
+  object-fit: cover;
   margin: 0 auto;
 }
 
