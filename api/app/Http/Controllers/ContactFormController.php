@@ -16,7 +16,7 @@ class ContactFormController extends Controller
             'email' => 'required|email|max:255',
             'subject' => 'nullable|string|max:255',
             'message' => 'required|string',
-            'website' => 'required|string|max:255'
+            'origin' => 'required|string|max:255'
         ]);
 
         if ($validator->fails()) {
@@ -29,7 +29,7 @@ class ContactFormController extends Controller
             'email' => $request->email,
             'subject' => $request->subject,
             'message' => $request->message,
-            'website' => $request->website,
+            'website' => $request->origin,
         ]);
 
         // Return a successful response

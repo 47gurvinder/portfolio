@@ -36,7 +36,7 @@ $(document).ready(function () {
                     msg.closest(".bottom-form-control").removeClass("error").addClass("success");
                     flag = true;
                 }
-                var dataString = "name=" + name.val() + "&email=" + email.val() + "&subject=" + subject.val() + "&msg=" + msg.val() + "&captcha_token=" + token;
+                var dataString = "name=" + name.val() + "&email=" + email.val() + "&subject=" + subject.val() + "&message=" + msg.val() + "&captcha_token=" + token +"&origin="+window.location.href;
                 $(".loading").fadeIn("slow").html("Loading...");
                 $.ajax({
                     type: "POST",
