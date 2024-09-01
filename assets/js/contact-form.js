@@ -58,5 +58,60 @@ $(document).ready(function() {
     
 })
 
+function onSubmit(token) {
+    // console.log("onSubmit",token);
+   // document.getElementById("main_contact_form").submit();
+
+   
+   e.preventDefault();
+   var name = $(".name");
+   var email = $(".email");
+   var subject = $(".subject");
+   var msg = $(".message");
+   var flag = false;
+   if (name.val() == "") {
+       name.closest(".form-control").addClass("error");
+       name.focus();
+       flag = false;
+       return false;
+   } else {
+       name.closest(".form-control").removeClass("error").addClass("success");
+   } if (email.val() == "") {
+       email.closest(".form-control").addClass("error");
+       email.focus();
+       flag = false;
+       return false;
+   } else {
+       email.closest(".form-control").removeClass("error").addClass("success");
+   } if (msg.val() == "") {
+       msg.closest(".form-control").addClass("error");
+       msg.focus();
+       flag = false;
+       return false;
+   } else {
+       msg.closest(".form-control").removeClass("error").addClass("success");
+       flag = true;
+   }
+   var dataString = "name=" + name.val() + "&email=" + email.val() + "&subject=" + subject.val() + "&msg=" + msg.val()+"&captcha_token="+token;
+   $(".loading").fadeIn("slow").html("Loading...");
+   $.ajax({
+       type: "POST",
+       data: dataString,
+       url: "https://api.gurwinder.me/api/contact",
+       cache: false,
+       success: function (d) {
+           $(".form-control").removeClass("success");
+        if(d == 'success') // Message Sent? Show the 'Thank You' message and hide the form
+$('.loading').fadeIn('slow').html('<font color="#48af4b">Mail sent Successfully.</font>').delay(3000).fadeOut('slow');
+
+else
+$('.loading').fadeIn('slow').html('<font color="#ff5607">Mail not sent.</font>').delay(3000).fadeOut('slow');
+
+       }
+   });
+   return false;
+
+  }
+
 
 
