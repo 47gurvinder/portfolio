@@ -4,12 +4,30 @@ namespace App\Http\Controllers;
 
 use App\Models\ContactForm;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Validator;
 
 class ContactFormController extends Controller
 {
     public function store(Request $request)
     {
+
+        // Validate CAPTCHA token here
+        $captchaToken = $request->input('captcha_token');
+        $captchaSecret = env('CAPTCHA_SECRET_KEY'); // Make sure to set this in your .env file
+
+        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret' => $captchaSecret,
+            'response' => $captchaToken,
+        ]);
+
+        $captchaValidation = json_decode($response->body());
+
+        if (!$captchaValidation->success) {
+            return response()->json(['message' => 'Captcha validation failed'], 422);
+        }
+
+
         // Validate the request
         $validator = Validator::make($request->all(), [
             'name' => 'required|string|max:255',
