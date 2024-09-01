@@ -53,7 +53,7 @@ class ContactFormController extends Controller
         ]);
 
          // Send email to admin
-         Mail::to('contact@gurwinder.me')->send(new ContactFormSubmitted($contactForm));
+         Mail::to('hire@gurwinder.me')->send(new ContactFormSubmitted($contactForm));
 
 
         // Return a successful response
