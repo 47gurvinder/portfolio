@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\ContactForm;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class ContactFormController extends Controller
 {
@@ -37,4 +39,3 @@ class ContactFormController extends Controller
         ], 201);
     }
 }
-

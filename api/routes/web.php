@@ -1,13 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactFormController;
 
 Route::get('/', function () {
     return view('welcome');
-});
-Route::get('/test2', function (Request $request) {
-    return response()->json([
-        'message' => 'API is working!',
-        'status' => 'success'
-    ], 200);
 });
