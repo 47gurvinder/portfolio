@@ -1,4 +1,4 @@
 Sitemap: https://gurwinder.me/sitemap.xml
 
 User-agent: *
-Disallow:
+Disallow: /api/
