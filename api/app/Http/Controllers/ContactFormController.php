@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactFormSubmitted;
 use App\Models\ContactForm;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 
 class ContactFormController extends Controller
@@ -49,6 +51,10 @@ class ContactFormController extends Controller
             'message' => $request->message,
             'website' => $request->origin,
         ]);
+
+         // Send email to admin
+         Mail::to('contact@gurwinder.me')->send(new ContactFormSubmitted($contactForm));
+
 
         // Return a successful response
         return response()->json([
