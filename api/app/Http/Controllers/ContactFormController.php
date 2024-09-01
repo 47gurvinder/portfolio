@@ -60,6 +60,6 @@ class ContactFormController extends Controller
         return response()->json([
             'message' => 'Contact form submitted successfully',
             'data' => $contactForm
-        ], 201);
+        ], 200);
     }
 }
