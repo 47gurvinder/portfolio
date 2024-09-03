@@ -1,66 +1,91 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Gurwinder Singh - Full-Stack Mobile and Web Developer Portfolio
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Welcome to my portfolio repository! This GitHub repository showcases my work as a Full-Stack Developer with expertise in mobile and web application development. Here, you will find details about my professional experience, skills, projects, and the services I offer to help bring your digital ideas to life.
 
-## About Laravel
+## Table of Contents
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- [Introduction](#introduction)
+- [My Expertise](#my-expertise)
+- [Projects](#projects)
+- [Skills](#skills)
+- [Services](#services)
+- [Testimonials](#testimonials)
+- [Contact](#contact)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Introduction
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Hello! I'm Gurwinder Singh, a passionate Full-Stack Developer with over 10 years of experience in building high-quality mobile and web applications. My journey in the tech world has equipped me with the skills to develop efficient, scalable, and user-friendly solutions tailored to meet the unique needs of clients.
 
-## Learning Laravel
+I specialize in both front-end and back-end development, ensuring seamless integration and an exceptional user experience across all platforms.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## My Expertise
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+I offer a broad range of skills in the following areas:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- **Mobile Application Development**: Proficient in Flutter, React Native, Android (Java/Kotlin), and iOS (Swift).
+- **Web Development**: Expert in HTML, CSS, JavaScript, PHP, Laravel, Node.js, and various frameworks.
+- **Backend Development**: Strong command over server-side programming using PHP, Laravel, Node.js, and API development.
+- **Database Management**: Experience with both SQL and NoSQL databases, including Firebase, Firestore, SQLite, and MongoDB.
+- **API Integration and Development**: Skilled in RESTful APIs, third-party API integration, and Firebase services.
+- **UI/UX Design**: Focus on creating intuitive and engaging user interfaces using modern design principles.
 
-## Laravel Sponsors
+## Projects
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Here are some of the notable projects I have worked on:
 
-### Premium Partners
+1. **Malwa Radio**: An online radio application developed using Flutter for both iOS and Android platforms. The app allows users to listen to various music genres and make song requests, providing a personalized experience.
+   
+2. **Zenvolt**: A dynamic landing page designed for a company specializing in solar inverters. Built to engage users and showcase products, this site is optimized for conversions and provides a seamless user experience.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+3. **Estimate and Invoice Software**: A comprehensive mobile application for a construction company in Canada, allowing users to create estimates, convert them into invoices, manage customer profiles, and send notifications via Firebase Cloud Functions.
 
-## Contributing
+## Skills
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+I possess a diverse skill set that allows me to take on a variety of projects:
 
-## Code of Conduct
+- **Flutter**: 95%
+- **Kotlin/Java (Android)**: 96%
+- **Swift (iOS)**: 92%
+- **Node.js**: 92%
+- **PHP**: 93%
+- **WordPress/CMS**: 94%
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Services
 
-## Security Vulnerabilities
+I provide a range of development services to help clients achieve their digital goals:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **Flutter Development**: Building cross-platform mobile apps for Android, iOS, and web from a single codebase.
+- **Android & iOS Development**: Native app development tailored to specific platform requirements.
+- **Web Development**: Developing responsive and interactive websites using the latest technologies and frameworks.
+- **Backend Development**: Creating robust server-side logic and APIs to power applications.
+- **API Development**: Developing and integrating APIs to connect different services and applications.
+- **Consultation and Maintenance**: Offering ongoing support, updates, and consultation to ensure your app remains up-to-date and secure.
 
-## License
+## Testimonials
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Here's what some of my clients have to say about their experience working with me:
+
+- **Satwinder Rajpal (CEO, Malwa Radio)**: "An exceptional experience working with this developer on the Malwa Radio app. The app not only performs flawlessly but also provides a seamless experience for music lovers. Highly professional and delivered beyond expectations!"
+
+- **Kuldeep Singh (CEO, Zenvolt)**: "Excellent work on the Zenvolt landing page! The developer delivered a sleek, user-friendly site that perfectly showcases our solar inverters. Highly professional and skilled!"
+
+- **Jessica Miller (Entrepreneur)**: "Absolutely fantastic experience! The developer exceeded all our expectations, delivering a high-quality app that is both user-friendly and visually stunning. Their attention to detail and commitment to deadlines was impressive. Highly recommended."
+
+- **David Thompson (CEO)**: "Incredible work! The team was professional, responsive, and delivered a superb product on time. They took our vision and turned it into a reality with their expertise in both design and development. Would definitely hire again!"
+
+- **Emily Rodriguez (CTO at Digital Ventures)**: "Outstanding service! The developer went above and beyond to deliver a flawless website that perfectly meets our needs. Their technical skills and creative solutions made a huge difference in the final product. A true professional!"
+
+## Contact
+
+If you're interested in collaborating or have a project in mind, feel free to reach out to me:
+
+- **Call or SMS**: [+91 76968 40709](tel:+917696840709)
+- **WhatsApp**: [Message on WhatsApp](https://wa.me/917696840709)
+- **Email**: [hire@gurwinder.me](mailto:hire@gurwinder.me)
+- **LinkedIn**: [linkedin.com/in/47gurvinder](https://www.linkedin.com/in/47gurvinder)
+- **GitHub**: [github.com/47gurvinder](https://github.com/47gurvinder)
+- **Twitter**: [@47gurvinder](https://twitter.com/47gurvinder)
+
+---
+
+Thank you for taking the time to explore my portfolio. I look forward to the opportunity to work with you and bring your ideas to reality!
