@@ -56,14 +56,15 @@ body {
 }
 
 a {
-  color: var(--accent-color);
+  /* color: var(--accent-color); */
+  color: inherit;
   text-decoration: none;
   transition: 0.3s;
 }
 
 a:hover {
   color: color-mix(in srgb, var(--accent-color), transparent 25%);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h1,
@@ -76,8 +77,11 @@ h6 {
   font-family: var(--heading-font);
 }
 
-/* PHP Email Form Messages
-------------------------------*/
+.resume-a {
+  color: inherit;
+}
+
+/* ------------------------------*/
 .contact-form .error-message {
   display: none;
   background: #df1529;
@@ -1264,4 +1268,17 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.hire-me-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hire-me-btn:hover {
+  color: #fff;
 }
