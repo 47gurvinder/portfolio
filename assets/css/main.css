@@ -1270,6 +1270,42 @@ section,
   /* Add your styles here */
 }
 
+.client-logo-item {
+  border-radius: 1em;
+  width: 140px;
+  border: #eeeeee 1px solid;
+}
+
+.clients .client-logo {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease-in-out;
+  max-width: 100%;
+  height: auto;
+  padding: 15px; /* Add some padding around the logos */
+}
+
+.clients .client-logo:hover {
+  filter: grayscale(0%);
+}
+
+.clients-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap between logos */
+}
+
+.clients-grid .col-lg-2,
+.clients-grid .col-md-3,
+.clients-grid .col-sm-4,
+.clients-grid .col-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Space out the rows */
+}
+
+
 .hire-me-btn {
   margin-top: 20px;
   padding: 10px 20px;
