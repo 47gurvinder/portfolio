@@ -45,7 +45,7 @@ $(document).ready(function () {
                     cache: false,
                     success: function (d) {
                         $(".bottom-form-control").removeClass("success");
-                        if (d == 'success') // Message Sent? Show the 'Thank You' message and hide the form
+                        if (d.code == 200) // Message Sent? Show the 'Thank You' message and hide the form
                             $('.loading').fadeIn('slow').html('<font color="#48af4b">Mail sent Successfully.</font>').delay(3000).fadeOut('slow');
 
                         else
