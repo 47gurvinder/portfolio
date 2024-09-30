@@ -43,14 +43,13 @@ $(document).ready(function () {
                     data: dataString,
                     url: "https://api.gurwinder.me/api/contact",
                     cache: false,
-                    success: function (d) {
+                    success: function (data) {
                         $(".bottom-form-control").removeClass("success");
-                        if (d.code == 200) // Message Sent? Show the 'Thank You' message and hide the form
                             $('.loading').fadeIn('slow').html('<font color="#48af4b">Mail sent Successfully.</font>').delay(3000).fadeOut('slow');
-
-                        else
-                            $('.loading').fadeIn('slow').html('<font color="#ff5607">Mail not sent.</font>').delay(3000).fadeOut('slow');
-
+                    },
+                    error: function (xhr, textStatus, errorThrown) {
+                        $(".bottom-form-control").removeClass("success").removeClass("error");
+                        $('.loading').fadeIn('slow').html('<font color="#ff5607">An error occurred.</font>').delay(3000).fadeOut('slow');
                     }
                 });
                 return false;
